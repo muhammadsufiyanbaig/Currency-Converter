@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Currency Converter</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Currency Converter</h1>
+  
+  <label for="fromCurrency">From:</label>
+  <select id="fromCurrency">
+    <option value="PKR">PKR</option>
+    <!-- Add other currency options here -->
+  </select>
+  
+  <label for="toCurrency">To:</label>
+  <select id="toCurrency">
+    <option value="USD">USD</option>
+    <!-- Add other currency options here -->
+  </select>
+  
+  <label for="amount">Amount:</label>
+  <input type="number" id="amount" placeholder="Enter amount">
+  
+  <button onclick="convertCurrency()">Convert</button>
+  
+  <p id="result"></p>
+
+  <script src="script.js"></script>
+</body>
+</html>
